@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    background: #F55A5A;
+    padding-block: 1.25em;
+}
+
+.nav {
+    display: flex;
+    gap: 0.44em;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav--title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: -0.075em;
+    color: #fff;
+}
+
+.nav--logo{
+  color: #fff;
+  font-size: 1.25em;
+}
