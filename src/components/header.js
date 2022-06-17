@@ -1,12 +1,10 @@
-import React from "react";
+import React from "react"
 
-export default function Header(){
-    return(
-        <header className="header">
-            <nav className="nav">
-            <i className="nav--logo fa-solid fa-earth-africa"></i>
-            <h1 className="nav--title" >My Travel Journal</h1>
-            </nav>
-        </header>
-    )
+export default function Header() {
+  return (
+    <header>
+      <h1 className="header--title">My Travel Journal</h1>
+      <i className="header--logo fa-solid fa-earth-africa"></i>
+    </header>
+  )
 }

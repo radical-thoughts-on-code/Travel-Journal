@@ -1,14 +1,12 @@
 import React from "react"
-import Travel from "./components/Travel"
-import Header from "./components/header"
-import data from "./data"
+import Main from "./components/Main"
+import Header from "./components/Header"
 
-export default function App(){
-    console.log(data)
-    return (
-        <div>
-            <Header/>
-            <Travel/>
-        </div>
-    )
+export default function App() {
+  return (
+    <div>
+      <Header />
+      <Main />
+    </div>
+  )
 }
