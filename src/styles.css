@@ -74,7 +74,6 @@ main {
 
 .travel__image {
     width: 100%;
-    /* max-width: 350px; */
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -141,7 +140,7 @@ main {
     }
 
     .travel__img--container {
-        width: 30%;
+        width: 27%;
         
     }
 
