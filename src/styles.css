@@ -1,5 +1,5 @@
 :root {
-    --padding-: 40px;
+    --padding-: 20px;
 }
 
 * {
@@ -136,7 +136,7 @@ main {
 
     .travel__item--container {
         width: 70%;
-        margin-top: 2.5em;
+        margin-top: 3.5em;
     }
 
     .travel__img--container {

@@ -1,5 +1,6 @@
 import React from "react"
 
+
 export default function Travel(props) {
   return (
     <div className="travel">
@@ -15,7 +16,7 @@ export default function Travel(props) {
           View on Google Maps
         </a>
         <h2 className="travel__title">{props.title}</h2>
-        <strong className="travel__date">{`${props.startDate}- ${props.endDate}`}</strong>
+        <strong className="travel__date">{`${props.startDate} - ${props.endDate}`}</strong>
         <p className="travel__text">{props.description}</p>
       </div>
       <div className="travel__img--container">
