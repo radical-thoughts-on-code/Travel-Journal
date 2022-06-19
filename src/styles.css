@@ -29,7 +29,6 @@ header {
     align-items: center;
     justify-content: center;
     margin-bottom: 2em;
-    position: fixed;
     width: 100%;
 }
 
@@ -68,10 +67,6 @@ main {
     padding-bottom: 18px;
 }
 
-.travel:first-child {
-    padding-top: 100px;
-
-}
 
 .travel:last-child {
     border-bottom: none;
@@ -79,7 +74,7 @@ main {
 
 .travel__image {
     width: 100%;
-    max-width: 250px;
+    /* max-width: 350px; */
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -135,18 +130,19 @@ main {
     font-size: 0.64rem;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 550px) {
     .travel {
         flex-direction: row;
     }
 
     .travel__item--container {
         width: 70%;
-        margin-block: .9em;
+        margin-top: 2.5em;
     }
 
     .travel__img--container {
         width: 30%;
+        
     }
 
     .travel__text,

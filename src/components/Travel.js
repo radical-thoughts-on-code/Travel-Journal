@@ -11,8 +11,6 @@ export default function Travel(props) {
         <a
           href={props.googleMapsUrl}
           className="travel__link"
-          // target="_blank"
-          // rel="noreferrer"
         >
           View on Google Maps
         </a>
